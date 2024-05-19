@@ -30,7 +30,6 @@ class TaskManager:
         task_list = "\n".join(str(task) for task in self.tasks)
         return f"Task Manager:\n{task_list}"
 
-# Пример использования
 task1 = Task("Finish home task", "20.05.2024")
 task2 = Task("Buy groceries", "18.05.2024")
 task3 = Task("Call wife", "19.05.2024")
