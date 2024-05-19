@@ -8,7 +8,7 @@ class Warrior():
 
     def sleep(self):
         print(f"{self.name} went to sleep")
-        self.power += 2
+        self.endurance += 2
 
     def eat(self):
         print(f"{self.name} eating")
@@ -21,7 +21,6 @@ class Warrior():
 
     def walk(self):
         print(f"{self.name} walking")
-        self.power -= 1
 
     def info(self):
         print(f" warrior name is - {self.name}")
@@ -33,17 +32,8 @@ class Warrior():
 war1 = Warrior("CBuPenbIu", 50, 100, 300, "white")
 war2 = Warrior("MAKAPOHbI", 75, 150, 450, "brown")
 
-print(war2.endurance)
-print(war2.health)
+print(war2.name)
 print(war2.power)
-print(war2.hit)
-
-war2.walk()
-war2.hit()
-war2.eat()
-war2.sleep()
-
 print(war2.health)
 print(war2.endurance)
-print(war2.power)
-print(war2.hit)
+print(war2.skin_color)
